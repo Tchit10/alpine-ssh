@@ -1,0 +1,8 @@
+---
+- name: "[TCHIT10]"
+  hosts: all
+  tasks:
+    - name: "[TCHIT10] - copie du fichier"
+      copy:
+        src: ./monfichier.txt
+        dest: /tmp/tchit10.txt
